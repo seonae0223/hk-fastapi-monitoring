@@ -1,9 +1,9 @@
-name: js-monitoring
+name: hk-monitoring
 
 services:
   web:
     build: .
-    container_name: js-fastapi-monitoring
+    container_name: hk-fastapi-monitoring
     volumes:
       - .:/code
     ports:
